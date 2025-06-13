@@ -60,7 +60,7 @@ WORKDIR /juice-shop
 RUN npm install --unsafe-perm
 
 # Optional build step (if needed before sbom)
-RUN npm run build
+RUN npm run build:frontend && npm run build:server
 
 # Install SBOM tool
 ARG CYCLONEDX_NPM_VERSION=latest
