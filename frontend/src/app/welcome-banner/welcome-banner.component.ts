@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Bjoern Kimminich & the RD Juice Shop contributors.
+ * Copyright (c) 2014-2025 Bjoern Kimminich & the Pentest Juice Shop contributors.
  * SPDX-License-Identifier: MIT
  */
 
@@ -21,8 +21,8 @@ import { NgIf } from '@angular/common'
   imports: [NgIf, MatButtonModule, MatTooltip, MatIconModule, ExtendedModule, TranslateModule]
 })
 export class WelcomeBannerComponent implements OnInit {
-  public title: string = 'Welcome to RD Juice Shop'
-  public message: string = "<p>Being a web application with a vast number of intended security vulnerabilities, the <strong>RD Juice Shop</strong> is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications. The <strong>RD Juice Shop</strong> is an open-source project hosted by the non-profit <a href='https://owasp.org' target='_blank'>Open Worldwide Application Security Project (OWASP)</a> and is developed and maintained by volunteers. Check out the link below for more information and documentation on the project.</p><h1><a href='https://owasp-juice.shop' target='_blank'>https://owasp-juice.shop</a></h1>"
+  public title: string = 'Welcome to Pentest Juice Shop'
+  public message: string = "<p>Being a web application with a vast number of intended security vulnerabilities, the <strong>Pentest Juice Shop</strong> is supposed to be the opposite of a best practice or template application for web developers: It is an awareness, training, demonstration and exercise tool for security risks in modern web applications. The <strong>Pentest Juice Shop</strong> is an open-source project hosted by the non-profit <a href='https://owasp.org' target='_blank'>Open Worldwide Application Security Project (OWASP)</a> and is developed and maintained by volunteers. Check out the link below for more information and documentation on the project.</p><h1><a href='https://owasp-juice.shop' target='_blank'>https://owasp-juice.shop</a></h1>"
   public showHackingInstructor: boolean = true
   public showDismissBtn: boolean = true
 

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Bjoern Kimminich & the RD Juice Shop contributors.
+ * Copyright (c) 2014-2025 Bjoern Kimminich & the Pentest Juice Shop contributors.
  * SPDX-License-Identifier: MIT
  */
 
@@ -161,7 +161,7 @@ describe('NavbarComponent', () => {
   it('should use default application name if not customized', () => {
     configurationService.getApplicationConfiguration.and.returnValue(of({}))
     component.ngOnInit()
-    expect(component.applicationName).toBe('RD Juice Shop')
+    expect(component.applicationName).toBe('Pentest Juice Shop')
   })
 
   it('should use custom application name URL if configured', () => {

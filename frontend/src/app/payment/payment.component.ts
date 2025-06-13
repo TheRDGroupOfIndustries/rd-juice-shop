@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Bjoern Kimminich & the RD Juice Shop contributors.
+ * Copyright (c) 2014-2025 Bjoern Kimminich & the Pentest Juice Shop contributors.
  * SPDX-License-Identifier: MIT
  */
 
@@ -55,7 +55,7 @@ export class PaymentComponent implements OnInit {
   public card: any = {}
   public blueSkyUrl = null
   public redditUrl = null
-  public applicationName = 'RD Juice Shop'
+  public applicationName = 'Pentest Juice Shop'
   private campaignCoupon: string
   public couponControl: UntypedFormControl = new UntypedFormControl('', [Validators.required, Validators.minLength(10), Validators.maxLength(10)])
   public clientDate: any

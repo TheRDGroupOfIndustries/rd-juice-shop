@@ -1,6 +1,6 @@
 ---
 name: "⭐Challenge idea"
-about: Idea for a new hacking challenge in RD Juice Shop
+about: Idea for a new hacking challenge in Pentest Juice Shop
 title: '[⭐] '
 labels: challenge
 assignees: ''

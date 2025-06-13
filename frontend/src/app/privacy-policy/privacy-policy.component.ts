@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Bjoern Kimminich & the RD Juice Shop contributors.
+ * Copyright (c) 2014-2025 Bjoern Kimminich & the Pentest Juice Shop contributors.
  * SPDX-License-Identifier: MIT
  */
 
@@ -17,7 +17,7 @@ import { MatCardModule } from '@angular/material/card'
   imports: [MatCardModule, TranslateModule, MatDivider]
 })
 export class PrivacyPolicyComponent implements OnInit {
-  public applicationName: string = 'RD Juice Shop'
+  public applicationName: string = 'Pentest Juice Shop'
   public privacyContactEmail!: string
   public applicationUrl!: string
 

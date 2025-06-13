@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Bjoern Kimminich & the RD Juice Shop contributors.
+ * Copyright (c) 2014-2025 Bjoern Kimminich & the Pentest Juice Shop contributors.
  * SPDX-License-Identifier: MIT
  */
 
@@ -136,7 +136,7 @@ describe('PaymentComponent', () => {
 
   it('should hold the default applicationName if not defined in configuration', () => {
     configurationService.getApplicationConfiguration.and.returnValue(of({}))
-    expect(component.applicationName).toBe('RD Juice Shop')
+    expect(component.applicationName).toBe('Pentest Juice Shop')
   })
 
   it('should use custom blueSky URL if configured', () => {

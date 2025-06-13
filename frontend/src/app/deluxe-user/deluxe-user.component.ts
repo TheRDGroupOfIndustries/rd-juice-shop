@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Bjoern Kimminich & the RD Juice Shop contributors.
+ * Copyright (c) 2014-2025 Bjoern Kimminich & the Pentest Juice Shop contributors.
  * SPDX-License-Identifier: MIT
  */
 
@@ -24,7 +24,7 @@ import { NgIf } from '@angular/common'
 export class DeluxeUserComponent implements OnInit {
   public membershipCost: number = 0
   public error?: string = undefined
-  public applicationName = 'RD Juice Shop'
+  public applicationName = 'Pentest Juice Shop'
   public logoSrc: string = 'assets/public/images/JuiceShop_Logo.png'
 
   public SHOWCASES = [

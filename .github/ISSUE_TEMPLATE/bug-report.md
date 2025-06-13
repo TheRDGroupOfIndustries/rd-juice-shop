@@ -1,6 +1,6 @@
 ---
 name: "\U0001F41BBug report"
-about: Report a bug in RD Juice Shop
+about: Report a bug in Pentest Juice Shop
 title: '[🐛] '
 labels: bug
 assignees: ''

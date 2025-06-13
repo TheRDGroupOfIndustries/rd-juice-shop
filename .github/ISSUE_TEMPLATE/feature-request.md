@@ -1,6 +1,6 @@
 ---
 name: "\U0001F680Feature request"
-about: Suggest a feature for RD Juice Shop
+about: Suggest a feature for Pentest Juice Shop
 title: '[🚀] '
 labels: feature
 assignees: ''

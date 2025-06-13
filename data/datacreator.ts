@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2014-2025 Bjoern Kimminich & the RD Juice Shop contributors.
+ * Copyright (c) 2014-2025 Bjoern Kimminich & the Pentest Juice Shop contributors.
  * SPDX-License-Identifier: MIT
  */
 
@@ -74,7 +74,7 @@ async function createChallenges () {
       const { enabled: isChallengeEnabled, disabledBecause } = utils.getChallengeEnablementStatus({ disabledEnv: disabledEnv?.join(';') ?? '' } as ChallengeModel)
       description = description.replace('juice-sh.op', config.get<string>('application.domain'))
       description = description.replace('&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; allow=&quot;autoplay&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/771984076&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&quot;&gt;&lt;/iframe&gt;', entities.encode(config.get('challenges.xssBonusPayload')))
-      hint = hint.replace(/RD Juice Shop's/, `${config.get<string>('application.name')}'s`)
+      hint = hint.replace(/Pentest Juice Shop's/, `${config.get<string>('application.name')}'s`)
 
       try {
         datacache.challenges[key] = await ChallengeModel.create({
@@ -400,7 +400,7 @@ async function createProducts () {
   }
 
   function customizeRetrieveBlueprintChallenge (hint: string, customProduct: Product) {
-    return hint.replace(/RD Juice Shop Logo \(3D-printed\)/g, customProduct.name)
+    return hint.replace(/Pentest Juice Shop Logo \(3D-printed\)/g, customProduct.name)
   }
 }
 

@@ -1,4 +1,4 @@
-#  Copyright (c) 2014-2025 Bjoern Kimminich & the RD Juice Shop contributors.
+#  Copyright (c) 2014-2025 Bjoern Kimminich & the Pentest Juice Shop contributors.
 #  SPDX-License-Identifier: MIT
 
 # Private Parameters
