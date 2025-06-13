@@ -1,0 +1,9 @@
+tasks:
+  - init: npm install
+    command: npm start
+
+ports:
+  - name: RD Juice Shop
+    description: The Juice Shop web server
+    port: 3000
+    onOpen: open-preview
